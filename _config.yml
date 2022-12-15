@@ -50,10 +50,10 @@ author_work_experiences:
 
 # Education
 author_education_details:
-              - master_logo: hanyang.png
-                master_name: Hanyang
-                master_url: https://www.hanyang.ac.kr/
-                master_degree: Department of Computer Science
+              - college_logo: hanyang.png
+                college_name: Hanyang
+                college_url: https://www.hanyang.ac.kr/
+                college_degree: Department of Computer Science
                 description: Computer Vision
                 visibility: true
                 
