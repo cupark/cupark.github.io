@@ -3,7 +3,7 @@ subtitle: Deeplearning
 description: >- # this means to ignore newlines until "baseurl:"
   devlopr-jekyll is a beautiful Jekyll Theme Built For Developers, which is optimized for speed and readability.
 
-url: "https://cupark.github.io/#/" # the base hostname & protocol for your site, e.g. https://example.github.io
+url: "https://cupark.github.io" # the base hostname & protocol for your site, e.g. https://example.github.io
 baseurl: "" # the subpath of your site, e.g. /blog
 
 # Navigation
@@ -30,7 +30,7 @@ author_bio: Hi, my name is cu park. I built this site using devlopr-jekyll :D
 author_email: "cupark0411@gmail.com"
 author_location: Korea
 author_website_url: "https://cupark.github.io/"
-typewrite-text: 이건 어떻게 하는건지 알수가 없네 시발거
+typewrite-text: how can i do
 hero_cover_img: sample_cover.jpg # replace this for changing homepage cover (eg. try cover.jpeg). Image should be in /assets/img
 
 # Experiences
