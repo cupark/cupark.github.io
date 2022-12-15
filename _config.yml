@@ -36,11 +36,12 @@ hero_cover_img: sample_cover.jpg # replace this for changing homepage cover (eg.
 # Experiences
 author_work_experiences:
             - company_name: Shinbo
-              company_logo: Shinbo.png
+              company_logo: shinbo.png
               company_url: http://shinbo.kr/
               designation: Software Engineer
               description: Worked on various Shinbo Products
               visibility: true
+              
             - company_name: Microsoft
               company_logo: microsoft.png
               company_url: https://microsoft.com
