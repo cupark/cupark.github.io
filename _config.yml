@@ -16,10 +16,10 @@ urls:
       url: /blog
     - text: Gallery
       url: /gallery
-    - text: #Shop
-      url : #/shop
-    - text: Contact
-      url : /contact
+    #- text: Shop
+    #  url : /shop
+    #- text: Contact
+    #  url : /contact
 
 
 # Edit Author details (For multi authors check _data/authors.yml)
@@ -35,11 +35,18 @@ hero_cover_img: sample_cover.jpg # replace this for changing homepage cover (eg.
 
 # Experiences
 author_work_experiences:
+            - company_name: Unitrontech
+              company_logo: unitrontech.png
+              company_url: http://unitrontech.com/
+              designation: ML/DL Engineer
+              description: DL Thesis research (2022)
+              visibility: true
+              
             - company_name: Shinbo
               company_logo: shinbo.png
               company_url: http://shinbo.kr/
               designation: Software Engineer
-              description: Worked on various Shinbo Products
+              description: Worked on various Shinbo Products (2019~2022)
               visibility: true
               
             - company_name: Microsoft
@@ -120,8 +127,8 @@ show_author_education_details: true
 show_author_project_details: false
 
 # pagination of posts
-paginate: 4
-per_page: 4
+paginate: 5
+per_page: 5
 paginate_path: "/blog/page/:num/"
 
 # minify
