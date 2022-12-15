@@ -1,7 +1,7 @@
 ---
 name: Chan-Uk Park
 username: cupark
-bio: "Hi I a Park, a ML/DL Engineer."
+bio: "Hi, I'm a ML/DL Engineer."
 site: https://cupark.github.io
 avatar: cupark.png
 email: cupark0411@gmail.com
