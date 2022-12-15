@@ -1,7 +1,7 @@
 title: Deeplearning
-subtitle: Deeplearning
+subtitle: Deep learning World
 description: >- # this means to ignore newlines until "baseurl:"
-  devlopr-jekyll is a beautiful Jekyll Theme Built For Developers, which is optimized for speed and readability.
+  To explore the deep learning world.
 
 url: "https://cupark.github.io" # the base hostname & protocol for your site, e.g. https://example.github.io
 baseurl: "" # the subpath of your site, e.g. /blog
@@ -26,37 +26,45 @@ urls:
 
 author_logo: profile.png
 author: cupark
-author_bio: Hi, my name is cu park.
+author_bio: Hi, my name is park chan-uk.
 author_email: "cupark0411@gmail.com"
 author_location: Korea
-author_website_url: "https://cupark.github.io/"
-typewrite-text: how can i do
+author_website_url: "https://github.com/cupark"
+typewrite-text: How can i do
 hero_cover_img: sample_cover.jpg # replace this for changing homepage cover (eg. try cover.jpeg). Image should be in /assets/img
 
 # Experiences
 author_work_experiences:
-            - company_name: Google
-              company_logo: google.png
-              company_url: https://google.com
+            - company_name: Shinbo
+              company_logo: Shinbo.png
+              company_url: http://shinbo.kr/
               designation: Software Engineer
-              description: Worked on various Google Products
+              description: Worked on various Shinbo Products
               visibility: true
             - company_name: Microsoft
               company_logo: microsoft.png
               company_url: https://microsoft.com
               designation: Azure Developer
               description: Worked on various Azure Cloud Products
-              visibility: true
+              visibility: False
 
 # Education
 author_education_details:
-              - college_logo: mit.png
-                college_name: MIT
-                college_url: https://mit.org
-                college_degree: CS Engineer
-                description: Bachelor of Technology
+              - college_logo: seokyeong.png
+                college_name: Seokyeong
+                college_url: https://www.skuniv.ac.kr/
+                college_degree: Department of Computer Science
+                description: Computer Vision
                 visibility: true
 
+author_education_details:
+              - master_logo: hanyang.png
+                master_name: Hanyang
+                master_url: https://www.hanyang.ac.kr/
+                master_degree: Department of Computer Science
+                description: Computer Vision
+                visibility: true
+                
 # Projects
 author_project_details:
               - project_thumbnail: gamershub.png
