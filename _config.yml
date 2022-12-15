@@ -50,14 +50,6 @@ author_work_experiences:
 
 # Education
 author_education_details:
-              - college_logo: seokyeong.png
-                college_name: Seokyeong
-                college_url: https://www.skuniv.ac.kr/
-                college_degree: Department of Computer Science
-                description: Computer Vision
-                visibility: true
-
-author_education_details:
               - master_logo: hanyang.png
                 master_name: Hanyang
                 master_url: https://www.hanyang.ac.kr/
@@ -71,7 +63,7 @@ author_project_details:
                 project_title: Gamers Hub
                 project_description: A Platform built for Gamers and Game Devs
                 project_url: https://gamershub.in
-                visibility: true
+                visibility: False
               - project_thumbnail: hack4r.PNG
                 project_title: Hack4r
                 project_description: A Platform built for Hackers and Penetration Testers
@@ -117,7 +109,7 @@ permalink: pretty
 # Choose what to show ( can be true or false)
 show_author_work_experiences: true
 show_author_education_details: true
-show_author_project_details: true
+show_author_project_details: false
 
 # pagination of posts
 paginate: 4
