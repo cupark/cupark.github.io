@@ -1,4 +1,4 @@
-title: DL_Park
+title: Deep Learning
 subtitle: Deep learning World
 description: >- # this means to ignore newlines until "baseurl:"
   To explore the deep learning world.
@@ -28,7 +28,7 @@ author_logo: profile.png
 author: cupark
 author_bio: Hi, my name is park chan-uk.
 author_email: "cupark0411@gmail.com"
-author_location: Korea
+author_location: Seoul in Korea
 author_website_url: "https://github.com/cupark"
 typewrite-text: How can i do
 hero_cover_img: sample_cover.jpg # replace this for changing homepage cover (eg. try cover.jpeg). Image should be in /assets/img
