@@ -7,12 +7,13 @@ date: '2022-12-15 14:56:23 +0530'
 category: DeepLearning
 thumbnail: /assets/img/posts/helloworld.png
 keywords: best jekyll themes
-permalink: https://github.com/cupark/CNN #/blog/welcome-to-devlopr-jekyll/
+permalink: #https://github.com/cupark/CNN #/blog/welcome-to-devlopr-jekyll/
 usemathjax: true
 ---
 what the
 "딥러닝을 시작함에 있어서"
 딥러닝을 시작함에
+hat the
 
 {% highlight ruby %}
 def print_hi(name)
