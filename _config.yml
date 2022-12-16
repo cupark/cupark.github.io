@@ -109,8 +109,8 @@ wakatime_username: cupark
 ### mailchimp_form_url: #https://sujaykundu.us10.list-manage.com/subscribe/post?u=50bab1c85eae24ecfb0f68361&amp;id=3a2dd721d0
 
 # contact form - (choose formspress or getform)
-getform_endpoint: https://getform.io/f/4afe7ebf-50cc-4fab-bed0-40450d343d1c
-formspree_email: cupark0411@gmail.com #johndoe@gmail.com
+#getform_endpoint: https://getform.io/f/4afe7ebf-50cc-4fab-bed0-40450d343d1c
+formspree_email: cupark0411@gmail.com
 
 # releases - widget can be (sidebar, modal or embed)
 #olvy_organization: devlopr
