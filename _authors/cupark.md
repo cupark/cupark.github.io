@@ -25,7 +25,7 @@ social:
     - title: "telegram"
       url: 
     - title: "dribbble"
-      url: "
+      url: 
     - title: "flickr"
       url: 
 ---
