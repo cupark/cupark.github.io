@@ -11,8 +11,6 @@ permalink: #https://github.com/cupark/CNN #/blog/welcome-to-devlopr-jekyll/
 usemathjax: true
 ---
 what the
-"딥러닝을 시작함에 있어서"
-딥러닝을 시작함에
 hat the
 
 {% highlight ruby %}
