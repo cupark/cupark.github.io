@@ -7,7 +7,7 @@ date: '2022-12-15 14:56:23 +0530'
 category: DeepLearning
 thumbnail: /assets/img/posts/helloworld.png
 keywords: best jekyll themes
-permalink: #https://github.com/cupark/CNN #/blog/welcome-to-devlopr-jekyll/
+permalink: 
 usemathjax: true
 ---
 what the
