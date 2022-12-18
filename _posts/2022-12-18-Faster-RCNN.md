@@ -10,17 +10,4 @@ keywords: best jekyll themes
 permalink: 
 usemathjax: true
 ---
-## 1. Object Detection History
----
-![OD_HISTORY](/assets/img/posts/Fasterrcnn/od_history.png)
----
-## 2. Faster RCNN Architecture
----
-![Architecture](/assets/img/posts/Fasterrcnn/faster-RCNN-architecture.png)
----
-   ### 1) Image Input
-   ### 2) Conv Layer -> Feature Map
-   ### 3) RPN
-   ### 3-1) Region Proposal 
-   ### 3-2) Object be or not be
-   ### 4) Classifier, Detection
+
