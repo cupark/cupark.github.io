@@ -15,6 +15,7 @@ usemathjax: true
 ### 다중 레이어 구현
 ---
 #### Input - First Layer
+/assets/img/posts/SimpleLayer/input_layer.png
 ![inputlayer](/assets/img/posts/SimpleLayer/input_layer.png)
 ```python
 import torch
