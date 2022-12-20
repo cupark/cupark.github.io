@@ -16,7 +16,7 @@ usemathjax: true
 ---
 #### Input - First Layer
 ![inputlayer](/assets/img/posts/SimpleLayer/input_layer.png)
-<img src="/assets/img/posts/SimpleLayer/input_layer.png" width="%">
+<img src="/assets/img/posts/SimpleLayer/input_layer.png" alt>
 ```python
 import torch
 import torch.nn as nn
