@@ -15,8 +15,9 @@ usemathjax: true
 ### 다중 레이어 구현
 ---
 #### Input - First Layer
-![inputlayer](/assets/img/posts/SimpleLayer/input_layer.png)
-<img src="/assets/img/posts/SimpleLayer/input_layer.png" alt>
+
+<p align="center"><img src="/assets/img/posts/SimpleLayer/input_layer.png"></p>
+
 ```python
 import torch
 import torch.nn as nn
@@ -38,10 +39,14 @@ print("A1: ", A1)             # [0.3, 0.7, 1.1]
 ```
 ---
 #### First Layer & Activation Function(Sigmoid)
-![firstlayer](/assets/img/posts/SimpleLayer/input_first_layer.png)
+
+<p align="center"><img src="/assets/img/posts/SimpleLayer/input_first_layer.png"></p>
+
 ---
 #### Sigmoid()
-![Sigmoid](/assets/img/posts/SimpleLayer/sigmoid.png)
+
+<p align="center"><img src="/assets/img/posts/SimpleLayer/sigmoid.png"></p>
+
 ```python
 class Sigmoid:
     def __init__(self): # 초기화
@@ -66,7 +71,9 @@ print("Z1: ", Z1)              # [0.57444252 0.66818777 0.75026011]
 ```
 ---
 #### Fisrt-Second Layer
-![first_second_layer](/assets/img/posts/SimpleLayer/first_second_layer.png)
+
+<p align="center"><img src="/assets/img/posts/SimpleLayer/first_second_layer.png"></p>
+
 ```python
 W2 = np.array([[0.1, 0.4], [0.2, 0.5], [0.3, 0.6]])
 B2 = np.array([0.1, 0.2])
@@ -81,7 +88,9 @@ print("Z2 Shape: ", Z2)        # [0.62624937 0.7710107 ]
 ```
 ---
 #### Second - Output Layer
-![Second_Output_Layer](/assets/img/posts/SimpleLayer/Second_ouput_layer.png)
+
+<p align="center"><img src="/assets/img/posts/SimpleLayer/Second_ouput_layer.png"></p>
+
 ```python
 def identify_fuction(x): # 항등함수
     return x
