@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Introduction
+title: Hello World!
 permalink: /blog/categories/Introduction/
 ---
 
