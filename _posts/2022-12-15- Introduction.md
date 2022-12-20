@@ -4,10 +4,10 @@ title:  "Hello World!"
 summary: "Welcome Deeplearning"
 author: cupark
 date: '2022-12-15 14:56:23 +0530'
-category: DeepLearning
+category: Introduction
 thumbnail: /assets/img/posts/Helloworld/helloworld.png
 keywords: best jekyll themes
-permalink: 
+permalink: /blog/Introduction/
 usemathjax: true
 ---
 what the
