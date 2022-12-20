@@ -4,20 +4,16 @@ title:  "Hello World!"
 summary: "Welcome Deeplearning"
 author: cupark
 date: '2022-12-15 14:56:23 +0530'
-category: Introduction
+category: introduction
 thumbnail: /assets/img/posts/Helloworld/helloworld.png
-keywords: best jekyll themes
+keywords: Hello World
 permalink: /blog/Introduction/
 usemathjax: true
 ---
-what the
-hat the
+딥러닝의 시작
 
 {% highlight ruby %}
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
+Hello World
 
 {% endhighlight %}
 
