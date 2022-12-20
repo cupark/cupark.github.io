@@ -10,21 +10,12 @@ keywords: Hello World
 permalink: /blog/Introduction/
 usemathjax: true
 ---
-딥러닝의 시작
+
+#### 딥러닝의 시작
+##### Artificial Neural Network의 기본 개념 정리 및 CNN 모델 관련 Object Detection
+##### 나아가 Tracking and Orbit Predition을 목표로 블로그를 포스팅 할 예정입니다.
 
 {% highlight ruby %}
 Hello World
-
+  and Hello Deep Learning
 {% endhighlight %}
-
-or
-
-```javascript
-var a = 1;
-var b = 2;
-function sum (num1,num2){
-  return num1+num2;
-}
-var result = sum(a,b);
-```
-
