@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Self-Superivsed Learning!"
-summary: "Self-Superivsed Learning"
+summary: "What is Self-Superivsed Learning"
 author: cupark
 date: '2022-12-26 16:05:13 +0530'
 category: NeuralNetwork
