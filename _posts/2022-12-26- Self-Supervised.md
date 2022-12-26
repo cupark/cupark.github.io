@@ -12,9 +12,7 @@ usemathjax: true
 ---
 
 ---
-
-## Self-Supervied Learning
-
+## Self-Supervied Learning  
 ---
 
 ### Self-Supervised Learning 이란  
