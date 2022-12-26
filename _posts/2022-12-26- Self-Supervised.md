@@ -28,9 +28,9 @@ usemathjax: true
 
 ###### 1. Pretext task - 연구자가 직접 만든 task를 정의한다.  
 ###### 2. Label이 전혀 없는 데이터셋을 이용하여 Pretext task를 목표로 모델을 학습시킨다.  
-######    1. Point - 데이터 자체의 정보를 Modify하여 지도 학습처럼 사용해야 한다. 
+###### :: Point - 데이터 자체의 정보를 Modify하여 지도 학습처럼 사용해야 한다. 
 ###### 3. 학습된 모델을 Down-Stream task에 가지고 온다.  
-######    1. Point - 가중치의 변동을 막은 뒤, 전이 학습을 수행(4에서 수)
+###### :: Point - 가중치의 변동을 막은 뒤, 전이 학습을 수행(4에서 수)
 ###### 4. 3 에서 진행한 전이 학습 시 라벨을 전달하여 Supervised Learning을 수행하고 성능을 평가한다. 
 <p align="center"><img src="/assets/img/posts/SelfSupervised/self-supervised-workflow.png"></p>
 <p align="center"><img src="/assets/img/posts/SelfSupervised/self-supervised-finetuning.png"></p>
