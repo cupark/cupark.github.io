@@ -13,11 +13,12 @@ usemathjax: true
 
 ---
 
-### Self-Supervied Learning
+## Self-Supervied Learning
 
 ---
 
-<br>Self-Supervised Learning 이란</br>  
+### Self-Supervised Learning 이란  
+
 라벨이 없는 Untagged data를 기반으로 한 학습이다.   
 스스로 학습 데이터에 대한 분류를 수행하기 떄문에 Self라는 접두어가 붙었다.   
 데이터에 tag가 존재하지 않는다. 따라서 개와 고양이 사진을 데이터로 넣어   
@@ -25,7 +26,7 @@ usemathjax: true
 
 ---
 
-<br>Self-Supervised Learning 과정</br>  
+### Self-Supervised Learning 과정  
 
 1. Pretext task - 연구자가 직접 만든 task를 정의한다.  
 2. Label이 전혀 없는 데이터셋을 이용하여 Pretext task를 목표로 모델을 학습시킨다.  
