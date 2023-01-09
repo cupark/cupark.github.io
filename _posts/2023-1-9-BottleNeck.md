@@ -3,7 +3,7 @@ layout: post
 title:  "BottleNeck"
 summary: "BottleNeck Parameters"
 author: cupark
-date: '2023-1-9 10:56:23 +0530'
+date: '2023-1-9 05:56:23 +0530'
 category: NeuralNetwork
 thumbnail: /assets/img/posts/BottleNeck/thumb_bottleneck.png
 keywords: BottleNeck
