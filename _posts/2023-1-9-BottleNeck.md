@@ -12,15 +12,17 @@ usemathjax: true
 ---
 
 ---
-### BottleNeck
+### BottleNeck  
+
 ---
-#### BottleNeck이 Convolution 연산량에 어떠한 영향을 미치는가 확인
+#### BottleNeck이 Convolution 연산량에 어떠한 영향을 미치는가 확인  
 ---
 
 <p align="center"><img src="/assets/img/posts/BottleNeck/bottleneck.png"></p>
 
 ---
-##### Import Lib
+##### Import Lib  
+
 ```python
 import torch
 import torch.nn as nn
@@ -29,7 +31,8 @@ from torchsummary import summary
 ```
 
 ---
-##### Standard Param Network
+##### Standard Param Network  
+
 ```python
 class Standard_Param(nn.Module):
     def __init__(self):
@@ -48,8 +51,10 @@ class Standard_Param(nn.Module):
         out = self.relu(out)
         return out
 ```
+
 ---
-##### BottleNeck Param Network
+##### BottleNeck Param Network  
+
 ```python
 class BottleNeck_Param(nn.Module):
     def __init__(self, inputdim = 1, outputdim = 64):
@@ -72,13 +77,15 @@ class BottleNeck_Param(nn.Module):
 ```     
 
 ---
-##### Select Device  
+##### Select Device   
+
 ```python
 device = torch.device('cpu')
 ```
 
 ---
-##### Calculate Param  
+##### Calculate Param   
+
 ```python
 if __name__ == "__main__":
     model1 = Standard_Param()
@@ -87,4 +94,4 @@ if __name__ == "__main__":
     summary(model=model2, input_size= (256,320,320), device= device.type) # Total params: 69,632
 ```
 
-<p align="center"><img src="/assets/img/posts/BottleNeck/result.png"></p>
+<p align="center"><img src="/assets/img/posts/BottleNeck/result.PNG"></p>
