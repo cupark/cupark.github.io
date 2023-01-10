@@ -144,3 +144,59 @@ if __name__ == "__main__":
 ##### Result    
 <p align="center"><img src="/assets/img/posts/ConvParam/result.PNG"></p>
 
+---
+
+>### **Calculate Number of Weights, Bias**  
+>>**Weight = Size of Kernels x Size of Kernels x Number of Channels x Number of Kernel**  
+>>**Bias = Number of Channels**  
+
+```python
+conv1_weights = 11 * 11 * 3 * 96
+conv1_bias = 96
+conv1_sum = conv1_weights + conv1_bias
+
+conv2_weights = 5 * 5 * 96 * 256
+conv2_bias = 256
+conv2_sum = conv2_weights + conv2_bias
+
+conv3_weights = 3 * 3 * 256 * 384
+conv3_bias = 384
+conv3_sum = conv3_weights + conv3_bias
+
+conv4_weights = 3 * 3 * 384 * 384
+conv4_bias = 384
+conv4_sum = conv4_weights + conv4_bias
+
+conv5_weights = 3 * 3 * 384 * 256
+conv5_bias = 256
+conv5_sum = conv5_weights + conv5_bias
+
+
+print("conv1_weights: ", conv1_weights)
+print("conv1_bias: ", conv1_bias)
+print("conv1_sum: ", conv1_sum)
+
+print("conv2_weights: ", conv2_weights)
+print("conv2_bias: ", conv2_bias)
+print("conv2_sum: ", conv2_sum)
+
+print("conv3_weights: ", conv3_weights)
+print("conv3_bias: ", conv3_bias)
+print("conv3_sum: ", conv3_sum)
+
+print("conv4_weights: ", conv4_weights)
+print("conv4_bias: ", conv4_bias)
+print("conv4_sum: ", conv4_sum)
+
+print("conv5_weights: ", conv5_weights)
+print("conv5_bias: ", conv5_bias)
+print("conv5_sum: ", conv5_sum)
+```
+
+---
+ 
+##### Result 
+<p align="center"><img src="/assets/img/posts/ConvParam/result2.PNG"></p>
+  
+        
+    
