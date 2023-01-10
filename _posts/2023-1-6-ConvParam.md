@@ -49,7 +49,7 @@ usemathjax: true
 
 ### **Example Calculate Conv Param on AlexNet**  
 
-<p align="center"><img src="/assets/img/posts/ConvParam/alexnet_architecture.png"></p>
+<p align="center"><img src="/assets/img/posts/ConvParam/alexnet_architecture.PNG"></p>
 
 ---
 
@@ -139,5 +139,5 @@ if __name__ == "__main__":
     summary(model=model1, input_size= (3,227,227), device= device.type)
 ```
 
-<p align="center"><img src="/assets/img/posts/ConvParam/result.png"></p>
+<p align="center"><img src="/assets/img/posts/ConvParam/result.PNG"></p>
 
