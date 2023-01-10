@@ -19,12 +19,12 @@ usemathjax: true
 
 > #### 합성곱 연산에 따른 파라미터 계산  
 >> - **Convolution Parameter**  
->>> **1. Input Data Height : H**  
->>> **2. Input Data Width : W**  
->>> **3. Filter Height: FH**  
->>> **4. Filter Width : WD**  
->>> **5. Stride : S**  
->>> **6. Padding : P**    
+>> **1. Input Data Height : H**  
+>> **2. Input Data Width : W**  
+>> **3. Filter Height: FH**  
+>> **4. Filter Width : WD**  
+>> **5. Stride : S**  
+>> **6. Padding : P**    
 <p align="center"><img src="/assets/img/posts/ConvParam/outputsize.gif"></p>
 <p align="center"><img src="/assets/img/posts/ConvParam/formula.png"></p>
 
@@ -32,7 +32,7 @@ usemathjax: true
 
 > **Convolution Parameter Fomula**  
 >> **InputChannel x KernelWidth x KernelHeight x OutputChannel + Bias(Filter)**   
->>> **(Output Channel은 Filter의 값을 의미한다.)**   
+>> **(Output Channel은 Filter의 값을 의미한다.)**   
 
  
 ---
@@ -55,17 +55,17 @@ usemathjax: true
 
 >### **AlexNet Architecture**  
 >>- #### **Input: 227x227x3 크기의 컬러 이미지.**  
->>> **1.Conv-1: 11x11 크기의 커널 96개, stride=4, padding=0**   
->>> **2.MaxPool-1: stride 2, 3x3 max pooling layer**  
->>> **3.Conv-2: 5x5 크기의 커널 256개, stride=1, padding=2**  
->>> **4.MaxPool-2: stride 2, 3x3 max pooling layer**  
->>> **5.Conv-3: 3x3 크기의 커널 384개, stride=1, padding=1**  
->>> **6.Conv-4: 3x3 크기의 커널 384개, stride=1, padding=1**  
->>> **7.Conv-5: 3x3 크기의 커널 256개, stride=1, padding=1**  
->>> **8.Maxpool-3: stride 2, 3x3 max pooling layer**  
->>> **9.FC-1: 4096개의 fully connected layer**  
->>> **10.FC-2: 4096개의 fully connected layer**  
->>> **11.FC-3: 1000개의 fully connected layer** 
+>> **1.Conv-1: 11x11 크기의 커널 96개, stride=4, padding=0**   
+>> **2.MaxPool-1: stride 2, 3x3 max pooling layer**  
+>> **3.Conv-2: 5x5 크기의 커널 256개, stride=1, padding=2**  
+>> **4.MaxPool-2: stride 2, 3x3 max pooling layer**  
+>> **5.Conv-3: 3x3 크기의 커널 384개, stride=1, padding=1**  
+>> **6.Conv-4: 3x3 크기의 커널 384개, stride=1, padding=1**  
+>> **7.Conv-5: 3x3 크기의 커널 256개, stride=1, padding=1**  
+>> **8.Maxpool-3: stride 2, 3x3 max pooling layer**  
+>> **9.FC-1: 4096개의 fully connected layer**  
+>> **10.FC-2: 4096개의 fully connected layer**  
+>> **11.FC-3: 1000개의 fully connected layer** 
 
 ---
 
