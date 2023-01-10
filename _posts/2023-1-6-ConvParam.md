@@ -139,5 +139,8 @@ if __name__ == "__main__":
     summary(model=model1, input_size= (3,227,227), device= device.type)
 ```
 
+---
+ 
+##### Result    
 <p align="center"><img src="/assets/img/posts/ConvParam/result.PNG"></p>
 
