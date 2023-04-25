@@ -5,7 +5,7 @@ summary: "Mask-RCNN"
 author: cupark
 date: '2023-4-23 09:00:23 +0530'
 category: NeuralNetwork
-thumbnail: /assets/img/posts/MaskRCNN/thumb_maskrcnn.png
+thumbnail: /assets/img/posts/MaskRCNN/thumb_maskrcnn.PNG
 keywords: Masking
 permalink: /blog/Mask-RCNN/
 usemathjax: true
