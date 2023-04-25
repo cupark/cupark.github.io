@@ -5,7 +5,7 @@ summary: "Mask-RCNN"
 author: cupark
 date: '2023-4-23 09:00:23 +0530'
 category: NeuralNetwork
-thumbnail: /assets/img/posts/MaskRCNN/thumb_maskrcnn.PNG
+thumbnail: /assets/img/posts/MaskRCNN/thumb_maskrcnn.png
 keywords: Masking
 permalink: /blog/Mask-RCNN/
 usemathjax: true
@@ -66,7 +66,7 @@ usemathjax: true
       
 
 
-<p align="center"><img src="/assets/img/posts/MaskRCNN/FCN_Skipconnection.PNG"></p>
+<p align="center"><img src="/assets/img/posts/MaskRCNN/FCN-Skipconnection.PNG"></p>
 <p align="center"><img src="/assets/img/posts/MaskRCNN/skip-connection.PNG"></p>
 
 >> **FCN**      
