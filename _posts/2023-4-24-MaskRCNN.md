@@ -5,7 +5,7 @@ summary: "Mask-RCNN"
 author: cupark
 date: '2023-4-23 09:00:23 +0530'
 category: NeuralNetwork
-thumbnail: /assets/img/posts/MaskRCNN/image/thumb_maskrcnn.png
+thumbnail: /assets/img/posts/MaskRCNN/thumb_maskrcnn.png
 keywords: Masking
 permalink: /blog/Mask-RCNN/
 usemathjax: true
@@ -43,7 +43,7 @@ usemathjax: true
 >>>> - **ROI Align으로 추출된 ROI Feature에 대하여 1) Convolutional layer, 2) Deconvolutional layer를 거쳐 Binary Classification을 수행한다.**     
 
 
-<p align="center"><img src="/assets/img/posts/MaskRCNN/image/Segmentation.PNG"></p>
+<p align="center"><img src="/assets/img/posts/MaskRCNN/Segmentation.PNG"></p>
 
 ---
 #### About  Segmentation       
@@ -66,8 +66,8 @@ usemathjax: true
       
 
 
-<p align="center"><img src="/assets/img/posts/MaskRCNN/image/FCN_Skipconnection.PNG"></p>
-<p align="center"><img src="/assets/img/posts/MaskRCNN/image/skip-connection.PNG"></p>
+<p align="center"><img src="/assets/img/posts/MaskRCNN/FCN_Skipconnection.PNG"></p>
+<p align="center"><img src="/assets/img/posts/MaskRCNN/skip-connection.PNG"></p>
 
 >> **FCN**      
 >>> - **Encoder의 개념을 이어 입력 이미지에 대하여 차원을 축소한다.**         
@@ -76,7 +76,7 @@ usemathjax: true
 >>> - **Skip Connection은 ResNet에서 사용된 개념으로 Encoder 과정에 Pooling 부분에 대하여 Concatenate를 진행한다.**   
   
   
-<p align="center"><img src="/assets/img/posts/MaskRCNN/image/MASKRCNN.PNG"></p>
+<p align="center"><img src="/assets/img/posts/MaskRCNN/MASKRCNN.PNG"></p>
   
 >> **Mask RCNN**      
 >>> - **Mask RCNN에서의 Instance Segmentation에 관한 2가지 사항**         
@@ -88,8 +88,8 @@ usemathjax: true
 > **ROI Pooling vs ROI Align**           
 >> **RPN을 통하여 얻어진 ROI에 대하여 3 x 3 Convolution을 진행한다.**         
 >> **ROI 영역에 대하여 일정한 크기의 Grid로 여러 Cell을 나누어 Feature map을 생성한다.**
-<p align="center"><img src="/assets/img/posts/MaskRCNN/image/fast-rcnn_Quantization.PNG"></p>
-<p align="center"><img src="/assets/img/posts/MaskRCNN/image/roi-problem.PNG"></p>
+<p align="center"><img src="/assets/img/posts/MaskRCNN/fast-rcnn_Quantization.PNG"></p>
+<p align="center"><img src="/assets/img/posts/MaskRCNN/roi-problem.PNG"></p>
 
 >> **ROI Pooling**         
 >>> - **동작 방식**   
@@ -100,7 +100,7 @@ usemathjax: true
 >>> **원인: 입력 이미지에 대하여 Grid 분할을 진행하는 과정에서 ROI 영역이 딱 맞아 떨어지지 않는다.**   
 >>> **결과: 실수부에 걸쳐 있는 ROI에 7 x 7 Grid를 진행하고 정수영역에 대해서 Convolution이 진행된다. 따라서 실수부에 영역이 누락되거나 Quantization에 문제가 발생된다.**   
 
-<p align="center"><img src="/assets/img/posts/MaskRCNN/image/roi-problem1.PNG"></p>
+<p align="center"><img src="/assets/img/posts/MaskRCNN/roi-problem1.PNG"></p>
 
 >> **ROI Align**         
 >>> - **동작 방식**       
@@ -113,14 +113,14 @@ usemathjax: true
 >>> **결과: 실수 영역에 대하여 쌍선형 보간법을 사용하여 픽셀에 대한 정보를 보존하여 ROI Pooling 보다 높은 품질의 특성맵을 생성한다.**   
       
 
-<p align="center"><img src="/assets/img/posts/MaskRCNN/image/roi-problem1.PNG"></p>
-<p align="center"><img src="/assets/img/posts/MaskRCNN/image/roi-align.PNG"></p>
-<p align="center"><img src="/assets/img/posts/MaskRCNN/image/roi-align1.PNG"></p>
+<p align="center"><img src="/assets/img/posts/MaskRCNN/roi-problem1.PNG"></p>
+<p align="center"><img src="/assets/img/posts/MaskRCNN/roi-align.PNG"></p>
+<p align="center"><img src="/assets/img/posts/MaskRCNN/roi-align1.PNG"></p>
 
   
-<p align="center"><img src="/assets/img/posts/MaskRCNN/image/bilinear_Interpolation_dot1.PNG"></p>
-<p align="center"><img src="/assets/img/posts/MaskRCNN/image/bilinear_Interpolation_all.PNG"></p>
-<p align="center"><img src="/assets/img/posts/MaskRCNN/image/roi_align_all.PNG"></p>
+<p align="center"><img src="/assets/img/posts/MaskRCNN/bilinear_Interpolation_dot1.PNG"></p>
+<p align="center"><img src="/assets/img/posts/MaskRCNN/bilinear_Interpolation_all.PNG"></p>
+<p align="center"><img src="/assets/img/posts/MaskRCNN/roi_align_all.PNG"></p>
   
 ---
 #### 결론     
@@ -133,7 +133,7 @@ usemathjax: true
 >>> **2) Bounding Box: L1 Smooth Loss**              
 >>> **3) Masking FCN: Binary Cross-Entropy Loss**              
 
-<p align="center"><img src="/assets/img/posts/MaskRCNN/image/Masking_Overlap.PNG"></p>
+<p align="center"><img src="/assets/img/posts/MaskRCNN/Masking_Overlap.PNG"></p>
 
 
 
